@@ -1,4 +1,5 @@
 ## Техники тест-дизайна
-1. [Классы эквивалентности и граничные значения: Тестирование формы регистрации](https://docs.google.com/spreadsheets/d/1ptmkZ_pt2dAczgbkWsRn54a-br8606ntnJkKJiy0Rpg/edit?usp=sharing)
-2. [Попарное тестирование: Тестирование фильтрации и сортировки](https://docs.google.com/spreadsheets/d/1xIvGMTbYC3NV9mYPlawAcjjari38V7-t_1wvBNUPZ1k/edit?usp=sharing)
-3. [Таблица принятия решений: Тестирование модуля оплаты Paypal](https://docs.google.com/spreadsheets/d/1KW40b90klT1mDoul3bckT6uK2eRAUpY2m2d0bnR09bY/edit?usp=sharing)
+Что необходимо было сделать:
+- выделить [классы эквивалентности и граничные значения](https://docs.google.com/spreadsheets/d/1ptmkZ_pt2dAczgbkWsRn54a-br8606ntnJkKJiy0Rpg/edit?usp=sharing) для формы регистрации, состоящей из двух полей ввода "Логин" и "Пароль". Согласно требованиям "Логин" мог содержать от 3 (вкл.) до 15 символов (вкл.) и состоять из латиницы, цифр и/или нижнего подчеркивания, а "Пароль" мог содеражть от 8 символов (вкл.) и состоять из латиницы и цифр;
+- провести [попарное тестирование](https://docs.google.com/spreadsheets/d/1xIvGMTbYC3NV9mYPlawAcjjari38V7-t_1wvBNUPZ1k/edit?usp=sharing) фильтрации и сортировки в каталоге товаров. Для этого был использован [теремок](https://pairwise.teremokgames.com/);
+- составить [таблицу принятия решшений](https://docs.google.com/spreadsheets/d/1KW40b90klT1mDoul3bckT6uK2eRAUpY2m2d0bnR09bY/edit?usp=sharing) для модуля оплаты через PayPal. Согласно требованиям оплата была успешной только при положительном балансе и действующей карте.
